@@ -1,0 +1,29 @@
+<html>
+    <body style="font-family: broadway;color: rgb(45, 68, 68);">
+
+        <div id="num1"></div>
+        <div id="num2"></div>
+        <div id="num3"></div>
+
+        <script>
+            function Mul(x,y){
+                num1 = x;
+                num2 = y;
+                if (x === undefined) {
+                    alert("x is undefined")
+                    x = 1;
+                }
+                if(y=== undefined){
+                    alert("y is undefined")
+                    y = 1;
+                }
+                var z= x * y;
+                document.getElementById("num3").innerHTML=" Answer = " + z;
+            }
+        </script>
+
+        <button onclick="Mul(8,10)"> Click here to Multiply!</button>
+
+
+    </body>
+</html
